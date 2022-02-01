@@ -6,7 +6,6 @@
   "author": "Suraru",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
-  
   "system": "dnd5e",
   "url": "https://github.com/Suraru/UESTRPG5e",
   "readme": "https://github.com/Suraru/UESTRPG5e/blob/main/README.md",
@@ -38,7 +37,6 @@
       "type": "module"
     }
   ],
-  
   "scripts": [],
   "esmodules": ["./scripts/uestrpg-localization.js"],
   "languages": [
