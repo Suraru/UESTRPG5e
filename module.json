@@ -13,12 +13,23 @@
   "manifest": "https://github.com/Suraru/UESTRPG5e/main/module.json",
   "download": "https://github.com/Suraru/UESTRPG5e/archive/refs/tags/test.zip",
   "license": "https://github.com/Suraru/UESTRPG5e/blob/main/LICENSE",
-  "bugs": "https://github.com/Suraru/UESTRPG5e/issues",
   "changelog": "https://github.com/Suraru/UESTRPG5e/blob/main/changelog.txt"
+  "bugs": "https://github.com/Suraru/UESTRPG5e/issues",
+  "allowBugReporter": true,
   "dependencies": [
     {
       "name": "compendium-folders",
       "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
+      "type": "module"
+    },
+    {
+      "name": "dae",
+      "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json",
+      "type": "module"
+    },
+    {
+      "name": "midi-qol",
+      "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
       "type": "module"
     },
     {
