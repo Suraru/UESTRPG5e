@@ -79,9 +79,9 @@
       "label": "UESTRPG Classes",
       "path": "./packs/uestrpg-classes.db",
       "private": false,
-      "entity": "Classes",
+      "entity": "Item",
       "system": "dnd5e",
-      "type": "Classes"
+      "type": "Item"
     },
     {
       "name": "uestrpg-class-feats",
@@ -124,9 +124,9 @@
       "label": "UESTRPG Spells",
       "path": "./packs/uestrpg-spells.db",
       "private": false,
-      "entity": "Spell",
+      "entity": "Item",
       "system": "dnd5e",
-      "type": "Spell"
+      "type": "Item"
     },
     {
       "name": "uestrpg-subclass",

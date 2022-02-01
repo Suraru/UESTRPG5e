@@ -1,5 +1,0 @@
-
-
-Added:
-	/esoui/art/treasuremaps/treasuremap_deadlands_01.dds
-	/esoui/art/treasuremaps/treasuremap_deadlands_02.dds

@@ -1,9 +1,0 @@
-A Foe Most Porcine
-
-|ac Hear ye, hear ye!
-
-|ac Whosoever holds this PRESTIGIOUS INVITATION is cordially invited to the games at Hammerdeath Arena in the realm of STORMHAVEN, for a trial of PROWESS, PRESTIGE, and PORCINE PUGILISM.
-
-|ac Bring this invitation to <<1>> for an official bout with King Boar! Or just take the ham-fisted approach and crash the festivities. That's sure to be entertaining!
-
-|ac By decree of Jester King Emeric—and his beauteous queen—let the games begin!
