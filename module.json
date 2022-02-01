@@ -1,31 +1,20 @@
 {
-  "name": "UESTRPG5e",
+  "name": "uestrpg5e",
   "title": "UESTRPG 5e",
   "description": "Foundry VTT module for 5e systems converting the system into the Unofficial Elder Scrolls Tabletop RolePlaying Game 5th edition conversion kit.",
+  "version": "0.1.1",
   "author": "Suraru",
-  "authors": [],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  
+  "system": "dnd5e",
   "url": "https://github.com/Suraru/UESTRPG5e",
   "readme": "https://github.com/Suraru/UESTRPG5e/blob/main/README.md",
+  "manifest": "https://github.com/Suraru/UESTRPG5e/main/module.json",
+  "download": "https://github.com/Suraru/UESTRPG5e/archive/refs/tags/test.zip",
+  "license": "https://github.com/Suraru/UESTRPG5e/blob/main/LICENSE",
   "bugs": "https://github.com/Suraru/UESTRPG5e/issues",
-  "version": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "system": "dnd5e",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "uestrpg-backgrounds",
-      "label": "UESTRPG Backgrounds",
-      "path": "./packs/uestrpg-backgrounds.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    }
-  ],
+  "changelog": "https://github.com/Suraru/UESTRPG5e/blob/main/changelog.txt"
   "dependencies": [
     {
       "name": "compendium-folders",
@@ -38,6 +27,106 @@
       "type": "module"
     }
   ],
-  "manifest": "https://github.com/Suraru/UESTRPG5e/main/module.json",
-  "download": "https://github.com/Suraru/UESTRPG5e/archive/refs/tags/test.zip"
+  
+  "scripts": [],
+  "esmodules": ["./scripts/uestrpg-localization.js"],
+  "languages": [
+        {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+        }
+	],
+  "packs": [
+    {
+      "name": "uestrpg-backgrounds",
+      "label": "UESTRPG Backgrounds",
+      "path": "./packs/uestrpg-backgrounds.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-basic-items",
+      "label": "UESTRPG Basic Items",
+      "path": "./packs/uestrpg-basic-items.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-birthsigns",
+      "label": "UESTRPG Birthsigns",
+      "path": "./packs/uestrpg-birthsigns.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-classes",
+      "label": "UESTRPG Classes",
+      "path": "./packs/uestrpg-classes.db",
+      "private": false,
+      "entity": "Classes",
+      "system": "dnd5e",
+      "type": "Classes"
+    },
+    {
+      "name": "uestrpg-class-feats",
+      "label": "UESTRPG Class Feats",
+      "path": "./packs/uestrpg-class-feats.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-feats",
+      "label": "UESTRPG Feats",
+      "path": "./packs/uestrpg-feats.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-races",
+      "label": "UESTRPG Races",
+      "path": "./packs/uestrpg-races.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-racial-feats",
+      "label": "UESTRPG Racial Feats",
+      "path": "./packs/uestrpg-racial-feats.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-spells",
+      "label": "UESTRPG Spells",
+      "path": "./packs/uestrpg-spells.db",
+      "private": false,
+      "entity": "Spell",
+      "system": "dnd5e",
+      "type": "Spell"
+    },
+    {
+      "name": "uestrpg-subclass",
+      "label": "UESTRPG Subclass",
+      "path": "./packs/uestrpg-subclass.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+  ]
 }
