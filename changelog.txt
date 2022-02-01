@@ -1,0 +1,25 @@
+Initial Release. 
+
+Contains:
+-script that changes translations to UESTRPG variants
+    -Dexterity to Agility
+    -Constitution to Endurance
+    -Wisdom to Willpower
+    -Charisma to Personality
+    -Languages to TES languages
+-artwork from every TES title from Morrowind and Legends. 
+-All Classes and half of subclasses (up to priest) /w formatting and descriptions
+-Half of class feats up to level 3 (up to nightblade, includes subclasses)
+-All races and subraces /w formatting and descriptions
+-All race feats /w full automation using DAE and Midi-QOL
+-All backgrounds
+-All birthsigns
+
+Still missing:
+-script that removes all coins save for gold, renamed to Septim
+-all abilities and items pathed to icon artwork
+-all items, spells, creatures, and feats
+-rest of the class feats and subclasses
+-weapon profs and types
+-remove unneeded artwork (to reduce download size)
+-all creatures
