@@ -1,0 +1,11 @@
+Meat for Soup
+
+Lizard: Crusty
+
+Mudcrab: Tasty
+
+Jackal: Gamey
+
+Rat: Good for snacks (not soup)
+
+Goblin: Nasty (don't eat)

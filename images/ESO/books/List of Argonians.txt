@@ -1,0 +1,11 @@
+List of Argonians
+
+Here are the names of the Argonians you need to talk to. They can be found deep in the swamps of Shadowfen.
+
+<<1>>: Near Sunscale Strand.
+
+<<2>>: Near Hissmir.
+
+<<3>>: Near the Hatching Pools.
+
+Approach each location with caution. The Blackguards keep a close eye on these poor wretches.

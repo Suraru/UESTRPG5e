@@ -1,0 +1,11 @@
+Loriasel Tablet, Entry 2
+
+Entry 2
+My translation of the <<1>> tablet is woefully inelegant, but I believe it says the following:
+
+"Speak the life-treaty of <<2>> before the blessed-stone.
+Call the Daedric herald who was cast down.
+Accept the shadow of <<2>>.
+Truth and not-truth come as water within many-waters."
+
+The word "<<2>>" appears twice in the script. I find no reference to this word in any of my books regarding the Ayleid language. It seems to be a name, but of what?

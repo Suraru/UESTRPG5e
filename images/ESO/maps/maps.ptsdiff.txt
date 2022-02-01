@@ -1,0 +1,9 @@
+
+
+Added:
+	/art/maps/deadlands/u32_folly_delve_base
+	/art/maps/housing/u32_agonysascent_base
+	/art/maps/housing/u32_agonysascent_int01_base
+	/art/maps/housing/u32_agonysascent_int02_base
+	/art/maps/housing/u32_agonysascent_int03_base
+	/art/maps/housing/u32_agonysascent_int04_base
