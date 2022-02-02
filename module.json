@@ -38,7 +38,10 @@
     }
   ],
   "scripts": [],
-  "esmodules": ["./scripts/uestrpg-localization.js"],
+  "esmodules": [
+		"./scripts/uestrpg-localization.js",
+		"./scripts/uestrpg-proficiencies.js"
+	],
   "languages": [
         {
         "lang": "en",
@@ -132,6 +135,15 @@
       "name": "uestrpg-subclass",
       "label": "UESTRPG Subclass",
       "path": "./packs/uestrpg-subclass.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
+    },
+    {
+      "name": "uestrpg-common-weapons",
+      "label": "UESTRPG Common Weapons",
+      "path": "./packs/uuestrpg-common-weapons.db",
       "private": false,
       "entity": "Item",
       "system": "dnd5e",
