@@ -148,6 +148,15 @@
       "entity": "Item",
       "system": "dnd5e",
       "type": "Item"
+    },
+    {
+      "name": "uestrpg-rare-weapons",
+      "label": "UESTRPG Rare Weapons",
+      "path": "./packs/uestrpg-rare-weapons.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e",
+      "type": "Item"
     }
   ]
 }
