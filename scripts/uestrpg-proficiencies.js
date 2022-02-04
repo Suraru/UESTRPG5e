@@ -71,7 +71,32 @@ Hooks.on
 			trident: "uestrpg5e.uestrpg-common-weapons.NmY247olYhCNby6I",
 			whip: "uestrpg5e.uestrpg-common-weapons.ZyFebv30yoIYt502",
 			unarmed: "uestrpg5e.uestrpg-common-weapons.tHF6YlxURwLPjuhr",
-			unarmedmonk: "uestrpg5e.uestrpg-common-weapons.wraCWeBlRj77xte5"
+			unarmedmonk: "uestrpg5e.uestrpg-common-weapons.wraCWeBlRj77xte5",
+			bostaff: "uestrpg5e.uestrpg-rare-weapons.PiT65Yp2WroA9oG8",
+			kanabo: "uestrpg5e.uestrpg-rare-weapons.hMHdxG3QTVtZnq2y",
+			nunchaku: "uestrpg5e.uestrpg-rare-weapons.HIz1VGM3tyBeCqKf",
+			tetsubo: "uestrpg5e.uestrpg-rare-weapons.QfbOr2H00QNHCaWL",
+			warmace: "uestrpg5e.uestrpg-rare-weapons.hpPL1RT659BdhjQl",
+			cutlass: "uestrpg5e.uestrpg-rare-weapons.q6q71VcMSb3zCYtl",
+			tanto: "uestrpg5e.uestrpg-rare-weapons.ATchRkhuxTLMxIX7",
+			wakizashi: "uestrpg5e.uestrpg-rare-weapons.NeviS3SKVk52yM93",
+			broadsword: "uestrpg5e.uestrpg-rare-weapons.Kr0JYxARjUFkJVRO",
+			claymore: "uestrpg5e.uestrpg-rare-weapons.mg4PQc2XlVkqs5cI",
+			daikatana: "uestrpg5e.uestrpg-rare-weapons.u2nnMDiWRHF8giYL",
+			katana: "uestrpg5e.uestrpg-rare-weapons.a89qeYiuAXPuNC0w",
+			sabre: "uestrpg5e.uestrpg-rare-weapons.WEW7Pcyf1l5yDaUh",
+			bola: "uestrpg5e.uestrpg-rare-weapons.hbUCgqFoo1E2uoLj",
+			chakram: "uestrpg5e.uestrpg-rare-weapons.W0Az2yDgnEtyF4iK",
+			throwingstar: "uestrpg5e.uestrpg-rare-weapons.VFa50finWPhzn2UF",
+			pickaxe: "uestrpg5e.uestrpg-rare-weapons.aiEvuUdTnHGA44Sn",
+			waraxe: "uestrpg5e.uestrpg-rare-weapons.hiY33OAqf3ArxCUV",
+			naginata: "uestrpg5e.uestrpg-rare-weapons.OcHJk1xrrdNZPG1x",
+			poleaxe: "uestrpg5e.uestrpg-rare-weapons.K7MKkb5O5nNTnAaY",
+			scythe: "uestrpg5e.uestrpg-rare-weapons.kEzKcveL6yWdoym3",
+			awl: "uestrpg5e.uestrpg-rare-weapons.iQXQCd5eDKQu7LSH",
+			claws: "uestrpg5e.uestrpg-rare-weapons.gn83GPZT7v2HWF7j",
+			katar: "uestrpg5e.uestrpg-rare-weapons.G28yTbiFPnI4MzJm",
+			knuckles: "uestrpg5e.uestrpg-rare-weapons.uee4ODz0XS6fhwU1"
 		}
 	}
 )
