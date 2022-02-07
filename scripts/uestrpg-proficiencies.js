@@ -1,6 +1,68 @@
 Hooks.on
 ("init", () =>
 	{
+		CONFIG.DND5E.spellSchools = {
+			destruction: "Destruction",
+			restoration: "Restoration",
+			conjuration: "Conjuration",
+			alteration: "Alteration",
+			illusion: "Illusion",
+			mysticism: "Mysticism",
+			thaumaturgy: "Thaumaturgy",
+			enchanting: "Enchanting",
+			alchemy: "Alchemy",
+			auromancy: "Auromancy",
+			darkmagic: "Dark Magic",
+			necromancy: "Necromancy",
+			fleshmagic: "Flesh Magic",
+			bloodmagic: "Blood Magic",
+			soulmagic: "Soul Magic",
+			sight: "Sight",
+			thuum: "Thu'um",
+			shehai: "Shehai",
+			timemagic: "Time Magic",
+			weathermagic: "Weather Magic"
+		};
+		CONFIG.DND5E.languages = {
+			commoncyrodilic: "Cyrodilic/Tamrielic",
+			commonaltmeris: "Altmeris",
+			commonbosmeris: "Bosmeris",
+			commonbretic: "Bretic",
+			commondunmeris: "Dunmeris",
+			commonjel: "Jel",
+			commonnordic: "Nordic",
+			commonorcish: "Orcish",
+			commontaagra: "Ta'agra",
+			commonyoku: "Yoku",
+			rareakaviri: "Akaviri",
+			rarealdchimeris: "Ald Chimeris",
+			rarealdmeris: "Aldmeris",
+			rareayleidoon: "Ayliedoon",
+			rarecentaurian: "Centaurian",
+			raredaedric: "Daedric",
+			raredovahzul: "Dovahzul",
+			raredreugh: "Dreugh",
+			raredwemeris: "Dwemeris",
+			rareehlnofex: "Ehlnofex",
+			rareelder: "Elder",
+			rarefalmeris: "Falmeris",
+			raregiantish: "Giantish",
+			raregoblin: "Goblin-Speak",
+			rareharpy: "Harpy",
+			rarehist: "Hist",
+			rareimga: "Imga",
+			rarekothringi: "Kothringi",
+			rarelamia: "Lamia",
+			rareminotaur: "Minotaur",
+			rarenedic: "Nedic",
+			rarenereid: "Nereid",
+			rareoldorcish: "Old Orcish",
+			rarepyandonean: "Pyandonean",
+			rarereachtongue: "Reach-Tongue",
+			raresload: "Sload",
+			rarespriggan: "Spriggan",
+			raretsaesci: "Tsaesci"
+		};
 		CONFIG.DND5E.weaponProficiencies = {
 			bln: "Blunt Weapons",
 			sbl: "Short Blades",
@@ -100,3 +162,7 @@ Hooks.on
 		}
 	}
 )
+
+
+
+
