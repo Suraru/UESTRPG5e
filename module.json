@@ -2,7 +2,7 @@
   "name": "uestrpg5e",
   "title": "UESTRPG 5e",
   "description": "Foundry VTT module for 5e systems converting the system into the Unofficial Elder Scrolls Tabletop RolePlaying Game 5th edition conversion kit.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Suraru",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
@@ -29,11 +29,6 @@
     {
       "name": "midi-qol",
       "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
-      "type": "module"
-    },
-    {
-      "name": "tidy5e-sheet",
-      "manifest": "https://github.com/sdenec/tidy5e-sheet/releases/latest/download/module.json",
       "type": "module"
     }
   ],

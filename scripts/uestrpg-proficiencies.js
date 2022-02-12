@@ -151,7 +151,7 @@ Hooks.on
 			chakram: "uestrpg5e.uestrpg-rare-weapons.W0Az2yDgnEtyF4iK",
 			throwingstar: "uestrpg5e.uestrpg-rare-weapons.VFa50finWPhzn2UF",
 			pickaxe: "uestrpg5e.uestrpg-rare-weapons.aiEvuUdTnHGA44Sn",
-			waraxe: "uestrpg5e.uestrpg-rare-weapons.hiY33OAqf3ArxCUV",
+			waraxe: "uestrpg5e.uestrpg-rare-weapons.WPb6AVvH0wg3CNeG",
 			naginata: "uestrpg5e.uestrpg-rare-weapons.OcHJk1xrrdNZPG1x",
 			poleaxe: "uestrpg5e.uestrpg-rare-weapons.K7MKkb5O5nNTnAaY",
 			scythe: "uestrpg5e.uestrpg-rare-weapons.kEzKcveL6yWdoym3",
