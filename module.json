@@ -1,157 +1,159 @@
 {
-  "name": "uestrpg5e",
-  "title": "UESTRPG 5e",
-  "description": "Foundry VTT module for 5e systems converting the system into the Unofficial Elder Scrolls Tabletop RolePlaying Game 5th edition conversion kit.",
-  "version": "0.0.3",
-  "author": "Suraru",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
-  "system": "dnd5e",
-  "url": "https://github.com/Suraru/UESTRPG5e",
-  "readme": "https://github.com/Suraru/UESTRPG5e/blob/main/README.md",
-  "manifest": "https://github.com/Suraru/UESTRPG5e/main/module.json",
-  "download": "https://github.com/Suraru/UESTRPG5e/archive/refs/tags/v0.0.3-alpha.zip",
-  "license": "https://github.com/Suraru/UESTRPG5e/blob/main/LICENSE",
-  "changelog": "https://github.com/Suraru/UESTRPG5e/blob/main/changelog.txt",
-  "bugs": "https://github.com/Suraru/UESTRPG5e/issues",
-  "allowBugReporter": true,
-  "dependencies": [
-    {
-      "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-      "type": "module"
-    },
-    {
-      "name": "dae",
-      "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json",
-      "type": "module"
-    },
-    {
-      "name": "midi-qol",
-      "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
-      "type": "module"
-    }
-  ],
-  "scripts": [],
-  "esmodules": [
-		"./scripts/uestrpg-localization.js",
-		"./scripts/uestrpg-proficiencies.js"
-	],
-  "languages": [
-        {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-        }
-	],
-  "packs": [
-    {
-      "name": "uestrpg-backgrounds",
-      "label": "UESTRPG Backgrounds",
-      "path": "./packs/uestrpg-backgrounds.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-basic-items",
-      "label": "UESTRPG Basic Items",
-      "path": "./packs/uestrpg-basic-items.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-birthsigns",
-      "label": "UESTRPG Birthsigns",
-      "path": "./packs/uestrpg-birthsigns.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-classes",
-      "label": "UESTRPG Classes",
-      "path": "./packs/uestrpg-classes.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-class-feats",
-      "label": "UESTRPG Class Feats",
-      "path": "./packs/uestrpg-class-feats.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-feats",
-      "label": "UESTRPG Feats",
-      "path": "./packs/uestrpg-feats.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-races",
-      "label": "UESTRPG Races",
-      "path": "./packs/uestrpg-races.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-racial-feats",
-      "label": "UESTRPG Racial Feats",
-      "path": "./packs/uestrpg-racial-feats.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-spells",
-      "label": "UESTRPG Spells",
-      "path": "./packs/uestrpg-spells.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-subclass",
-      "label": "UESTRPG Subclass",
-      "path": "./packs/uestrpg-subclass.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-common-weapons",
-      "label": "UESTRPG Common Weapons",
-      "path": "./packs/uuestrpg-common-weapons.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    },
-    {
-      "name": "uestrpg-rare-weapons",
-      "label": "UESTRPG Rare Weapons",
-      "path": "./packs/uestrpg-rare-weapons.db",
-      "private": false,
-      "entity": "Item",
-      "system": "dnd5e",
-      "type": "Item"
-    }
-  ]
+   "name":"uestrpg5e",
+   "title":"UESTRPG 5e",
+   "description":"Foundry VTT module for 5e systems converting the system into the Unofficial Elder Scrolls Tabletop RolePlaying Game 5th edition conversion kit.",
+   "version":"0.0.3",
+   "author":"Suraru",
+   "minimumCoreVersion":"0.8.6",
+   "compatibleCoreVersion":"9",
+   "system":"dnd5e",
+   "url":"https://github.com/Suraru/UESTRPG5e",
+   "readme":"https://github.com/Suraru/UESTRPG5e/blob/main/README.md",
+   "manifest":"https://github.com/Suraru/UESTRPG5e/main/module.json",
+   "download":"https://github.com/Suraru/UESTRPG5e/archive/refs/tags/v0.0.3-alpha.zip",
+   "license":"https://github.com/Suraru/UESTRPG5e/blob/main/LICENSE",
+   "changelog":"https://github.com/Suraru/UESTRPG5e/blob/main/changelog.txt",
+   "bugs":"https://github.com/Suraru/UESTRPG5e/issues",
+   "allowBugReporter":true,
+   "dependencies":[
+      {
+         "name":"compendium-folders",
+         "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
+         "type":"module"
+      },
+      {
+         "name":"dae",
+         "manifest":"https://gitlab.com/tposney/dae/raw/master/package/module.json",
+         "type":"module"
+      },
+      {
+         "name":"midi-qol",
+         "manifest":"https://gitlab.com/tposney/midi-qol/raw/master/package/module.json",
+         "type":"module"
+      }
+   ],
+   "scripts":[
+      
+   ],
+   "esmodules":[
+      "./scripts/uestrpg-localization.js",
+      "./scripts/uestrpg-proficiencies.js"
+   ],
+   "languages":[
+      {
+         "lang":"en",
+         "name":"English",
+         "path":"lang/en.json"
+      }
+   ],
+   "packs":[
+      {
+         "name":"uestrpg-backgrounds",
+         "label":"UESTRPG Backgrounds",
+         "path":"./packs/uestrpg-backgrounds.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-basic-items",
+         "label":"UESTRPG Basic Items",
+         "path":"./packs/uestrpg-basic-items.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-birthsigns",
+         "label":"UESTRPG Birthsigns",
+         "path":"./packs/uestrpg-birthsigns.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-classes",
+         "label":"UESTRPG Classes",
+         "path":"./packs/uestrpg-classes.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-class-feats",
+         "label":"UESTRPG Class Feats",
+         "path":"./packs/uestrpg-class-feats.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-feats",
+         "label":"UESTRPG Feats",
+         "path":"./packs/uestrpg-feats.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-races",
+         "label":"UESTRPG Races",
+         "path":"./packs/uestrpg-races.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-racial-feats",
+         "label":"UESTRPG Racial Feats",
+         "path":"./packs/uestrpg-racial-feats.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-spells",
+         "label":"UESTRPG Spells",
+         "path":"./packs/uestrpg-spells.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-subclass",
+         "label":"UESTRPG Subclass",
+         "path":"./packs/uestrpg-subclass.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-common-weapons",
+         "label":"UESTRPG Common Weapons",
+         "path":"./packs/uuestrpg-common-weapons.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      },
+      {
+         "name":"uestrpg-rare-weapons",
+         "label":"UESTRPG Rare Weapons",
+         "path":"./packs/uestrpg-rare-weapons.db",
+         "private":false,
+         "entity":"Item",
+         "system":"dnd5e",
+         "type":"Item"
+      }
+   ]
 }
