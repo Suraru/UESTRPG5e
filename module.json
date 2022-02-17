@@ -9,7 +9,7 @@
    "system":"dnd5e",
    "url":"https://github.com/Suraru/UESTRPG5e",
    "readme":"https://github.com/Suraru/UESTRPG5e/blob/main/README.md",
-   "manifest":"https://github.com/Suraru/UESTRPG5e/main/module.json",
+   "manifest":"https://raw.githubusercontent.com/Suraru/UESTRPG5e/main/module.json",
    "download":"https://github.com/Suraru/UESTRPG5e/archive/refs/tags/v0.0.3-alpha.zip",
    "license":"https://github.com/Suraru/UESTRPG5e/blob/main/LICENSE",
    "changelog":"https://github.com/Suraru/UESTRPG5e/blob/main/changelog.txt",
