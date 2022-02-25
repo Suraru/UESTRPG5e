@@ -37,7 +37,7 @@
    ],
    "esmodules":[
       "./scripts/uestrpg-localization.js",
-      "./scripts/uestrpg-proficiencies.js"
+      "./scripts/uestrpg-classes.js"
    ],
    "languages":[
       {
