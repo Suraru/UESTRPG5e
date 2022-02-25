@@ -1,3 +1,32 @@
+v0.0.5-alpha
+-corrected correct download link for 0.5
+-removed module.lock
+
+
+
+v0.0.4-alpha
+-added all LGtC classes
+-correct subclasses
+-updated image headers
+-moved quickbuild to top for east of access
+-correct full/half caster comments
+-added class replacement script
+-fix module json to proper manifest
+-moved pictures around, updated races, birthsigns, racial feats, and basic items
+-Hotfix, forgot to update version in module.json
+
+
+
+v0.0.3-alpha
+[missing]
+
+
+
+v0.0.2-alpha
+-Correct issue with module.json
+
+
+
 Initial Release. 
 
 Contains:
