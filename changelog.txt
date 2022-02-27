@@ -1,3 +1,12 @@
+v0.0.6-alpha
+-Completed Barbarian feats and subclass feats
+-Removed legacy active effects on some races
+-Added in Proficiencies at top of race description for ease of using Hero Creation Tool
+-Corrected some temp effects from transferring to actor on equip
+-Removed subrace descriptions from main race, removed main race descriptions from subrace (HCT auto adds them, so its redundant)
+-Corrected prof script not loading
+
+
 v0.0.5-alpha
 -corrected correct download link for 0.5
 -removed module.lock
